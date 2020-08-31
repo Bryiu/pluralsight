@@ -5,5 +5,7 @@ APM is an Angular app that displays a reactive display of products onto a chart.
     element that will show the product suppliers in a JIT async pipe
 
 -Angular-Reactive-Forms
-Angular-Demo-Start is a reactive form that has CRUD and reactive elements for a user to input their information for a catalog subscription
+This is a reactive form that has CRUD and reactive elements for a user to input their information for a catalog subscription.
 
+-APM-Getting-Started
+This module was going through the basics for what components, services, and modules are.
