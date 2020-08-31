@@ -1,1 +1,9 @@
 This is a code along exercise that is in the Pluralsight course. This is not my original work.
+
+-APM-RxJS
+APM is an Angular app that displays a reactive display of products onto a chart. It has a filter to display different categories and an Alternate UI 
+    element that will show the product suppliers in a JIT async pipe
+
+-Angular-Reactive-Forms
+Angular-Demo-Start is a reactive form that has CRUD and reactive elements for a user to input their information for a catalog subscription
+

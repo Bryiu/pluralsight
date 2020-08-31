@@ -35,11 +35,13 @@ function ratingRange(min: number, max: number): ValidatorFn {
     return null;
   };
 }
+
 @Component({
   selector: 'app-customer',
   templateUrl: './customer.component.html',
   styleUrls: ['./customer.component.css'],
 })
+
 export class CustomerComponent implements OnInit {
   customerForm: FormGroup;
   customer = new Customer();
