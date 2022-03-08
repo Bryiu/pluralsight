@@ -1,0 +1,34 @@
+library('dplyr')
+library('tidyverse')
+
+head(mtcars)
+dim(mtcars)
+
+filter(mtcars, mpg > 20)
+ subset <- filter(mtcars, mpg > 20)
+ filter(subset, qsec < 17)
+
+filter(mtcars, mpg > 20,
+       qsec < 17, 
+       gear >= 5)
+arrange(mtcars, qsec)
+arrange(mtcars, desc(qsec))
+arrange(mtcars, desc(cyl), desc(wt))
+
+mtcars %>% 
+    filter(mpg > 20)
+
+mtcars %>%
+    filter(mpg > 20,
+           gear >= 4) %>%
+    arrange(qsec)
+
+mtcars <- mtcars %>%
+    mutate(new_col = 1, 
+           new_wt = 1000 * wt)
+head(mtcars)
+
+mtcars %>% 
+    mutate(decile = ntile(qsec, 10)) %>% 
+head()
+
